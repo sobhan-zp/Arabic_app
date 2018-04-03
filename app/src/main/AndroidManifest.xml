@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.arabic.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Network.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Activity.RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="yourapp" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".Activity.TainSathActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.DoneActivity" />
+        <activity android:name=".Activity.DarsActivity" />
+        <activity android:name=".TainSath.Fel_Mazi.Tamrin_7_fel_mazi" />
+        <activity android:name=".TainSath.Motazad.Tamrin_7_motazad" />
+        <activity android:name=".TainSath.TrueFalse.Tamrin_7_TrueFalse" />
+        <activity android:name=".TainSath.Hamgorohi.Tamrin_hamgorohi" />
+        <activity android:name=".TainSath.JomleSahih.Tamrin_7_jomleSahih" />
+        <activity android:name=".TainSath.Jaye_khali.Tamrin_7_Jaye_khali" />
+        <activity android:name=".TainSath.Dark_Matlab.Tamrin_7_Dark_Matlab" />
+        <activity android:name=".Activity.EditprofileActivity" />
+        <activity android:name=".Activity.ShowPdfActivity" />
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Class_Hashtom.tarjome_sazi_1.Tarmrin_8_class_1"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Class_Hashtom.moratab_sazi_2.Tamrin_8_class_2"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Home_Hashtom.tarjome_sazi_1.Tarmrin_8_home_1"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Home_Hashtom.motazad_2.Tarmrin_8_home_2"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Home_Hashtom.Hamgorohi_3.Tarmrin_8_home_3"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Home_Hashtom.Tarjome_sahih_4.Tarmrin_8_home_4"/>
+        <activity android:name=".Paye_Haft.Hashtom.Tamrin_Home_Hashtom.Jaye_khali_5.Tarmrin_8_home_5"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Class_Nohom.TrueFalse_1.Tarmrin_9_class_1"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Class_Nohom.tarjome_sazi_2.Tarmrin_9_class_2"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Class_Nohom.TrueFalse2_3.Tarmrin_9_class_3"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Home_Nohom.tarjome_sazi_1.Tarmrin_9_home_1"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Home_Nohom.Hamgorohi_2.Tarmrin_9_home_2"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Home_Nohom.TrueFals_3.Tarmrin_9_home_3"/>
+        <activity android:name=".Paye_Haft.Nohom.Tamrin_Home_Nohom.TrueFalse2_4.Tarmrin_9_home_4"/>
+
+        <!-- azmoon dars 9 -->
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_1.Azmoon_9_1"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_2.Azmoon_9_2"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_3.Azmoon_9_3"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_4.Azmoon_9_4"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_5.Azmoon_9_5"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_6.Azmoon_9_6"/>
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_7.Azmoon_9_7"/>
+
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_9.Azmoon_9_9"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="936b74d1b35aff8ce289b26d941b3ed09531a9d7" />
+    </application>
+
+</manifest>

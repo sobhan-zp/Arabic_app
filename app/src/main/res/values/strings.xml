@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">عربیگرام</string>
+
+    <string name="toast_pick_file_error">Unable to pick file. Check status of file manager.</string>
+
+
+    <string name="btn_next">صفحه بعد</string>
+
+
+    <string name="home">خانه</string>
+    <string name="about_app">درباره برنامه</string>
+    <string name="about_dev">درباره برنامه نویس</string>
+    <string name="about_pro">پروفایل</string>
+
+
+    <string name="quiz_1">گزینه مناسب را انتخاب کنید؟</string>
+    <string name="quiz_2">ترجمه نادرست را با علامت غ مشخص کنید.</string>
+
+
+    <string name="st_row1_pg1">1-</string>
+    <string name="st_part1_q1_pg1">هؤلاء سیدات</string>
+    <string name="st_part2_q1_pg1">  ...........  </string>
+    <string name="st_part3_q1_pg1">حَصَدنَ المحصول.</string>
+
+
+    <string name="st_row2_pg1">2-</string>
+    <string name="st_part1_q2_pg1">اولئک المؤمنات،شاکرات</string>
+    <string name="st_answer1_q2_pg1">آنان مؤمنان سپاس گزار هستند.</string>
+    <string name="st_answer2_q2_pg1">آنان مؤمنانی سپاس گزار هستند.</string>
+
+
+    <string name="st_row3_pg1">3-</string>
+    <string name="st_row4_pg1">4-</string>
+    <string name="st_row5_pg1">5-</string>
+
+
+    <string name="str_jadval">جدول تمرین تحلیل صرفی</string>
+
+    <string name="str_Onclickbase7">پایه هفتم</string>
+    <string name="str_Onclickbase8">پایه هشتم</string>
+    <string name="str_Onclickbase9">پایه نهم</string>
+    <string name="str_Onclickbase10">پایه دهم</string>
+    <string name="str_Onclickbase11">پایه یازدهم</string>
+    <string name="str_Onclickbase12">پایه دوازدهم</string>
+    <string name="str_Onclickcal">جدول تمرین تحلیل صرفی</string>
+
+
+    <string name="str_dars1">درس اول</string>
+    <string name="str_dars2">درس دوم</string>
+    <string name="str_dars3">درس سوم</string>
+    <string name="str_dars4">درس چهارم</string>
+    <string name="str_dars5">درس پنجم</string>
+    <string name="str_dars6">درس ششم</string>
+    <string name="str_dars7">درس هفتم</string>
+    <string name="str_dars8">درس هشتم</string>
+    <string name="str_dars9">درس نهم</string>
+    <string name="str_dars10">درس دهم</string>
+    <string name="str_dars11">درس یازدهم</string>
+    <string name="str_dars12">درس دوازدهم</string>
+
+    <string name="str_startTest">شروع آزمون ماه جاری</string>
+    <string name="title_class">کلاس اموزش ICDL</string>
+    <string name="tv_start_onlineClass">شروع کلاس:</string>
+    <string name="tv_time_onlineClass">9:30 الی 15</string>
+    <string name="tv_enterClass_onlineClass">ورود به کلاس</string>
+
+
+    <string name="btn_login">ورود به برنامه</string>
+    <string name="btn_guest">ورود مهمان</string>
+    <string name="btn_regester">ثبت نام</string>
+    <string name="txt_login">ورود به برنامه</string>
+    <string name="txt_register">ثبت نام</string>
+
+    <string name="fotgot_pass">رمز عبور را فراموش کردم</string>
+    <string name="already_registered">قبلا ثبت نام کردم</string>
+    <string name="notRegistered">هنوز ثبت نام نکردم</string>
+    <string name="pro_search">جستجوی پیشرفته</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="reg_name">نام</string>
+    <string name="reg_lastnamme">نام خانوادگی</string>
+    <string name="reg_email">پست الکترونیکی</string>
+    <string name="reg_confirmPass">تکراررمزعبور</string>
+    <string name="btn_register_main">ثبت نام</string>
+    <string name="str_tashrihi">ورود به بخش تشریحی</string>
+    <string name="str_motazad">ورود به بخش مترادف/متضاد</string>
+    <string name="str_4gozine">ورود به بخش تستی</string>
+    <string name="matn">
+
+        بعد المدرسة  لَعِبَ ياسرُ معَ اصدقائه فی طریقهم الی البیت\n
+رجع ياسر الي البيت ساعة  14  و طرق باب المنزل\n
+     سمعتْ امُّه . صوتَ البابِ ثم ذهبتْ و فتحتْ الباب\n
+       حینئذٍ  شاهدَ  یاسرُ  اباه و سَلَّمَ علیه\n
+
+    </string>
+    <string name="azmoon_num1">تمرین 1</string>
+    <string name="azmoon_num2">تمرین 2</string>
+    <string name="azmoon_num3">تمرین 3</string>
+    <string name="azmoon_num4">تمرین 4</string>
+    <string name="azmoon_num5">تمرین 5</string>
+    <string name="azmoon_num6">تمرین 6</string>
+    <string name="azmoon_num7">تمرین 7</string>
+    <string name="azmoon_num8">تمرین 8</string>
+    <string name="azmoon_num9">تمرین 9</string>
+
+
+    <!-- string array for questions -->
+    <string-array name="quiz_motazad">
+        <item> دَخَلَ / خَرَجَ  </item>
+        <item> وَراء / خَلف  </item>
+        <item> غالیه / رخیصة  </item>
+        <item> سُوء / ُسن  </item>
+        <item> رَاَیَ / نَظَر  </item>
+        <item> بارد / حارّ  </item>
+        <item> َجابَ / سَالَ  </item>
+        <item> أفاضل / أراذل  </item>
+        <item> أفضَل / أراذل  </item>
+        <item> أفضَل / خَیر  </item>
+        <item> َزینۀ / مسرورة  </item>
+
+
+    </string-array>
+
+
+</resources>

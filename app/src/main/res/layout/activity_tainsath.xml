@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arabic.app.Activity.TainSathActivity">
+
+
+    <!-- toolbar -->
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/app_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_green_800"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/app_bar2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="25dp">
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_base8_selectbase"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/buttons_bg_1"
+                android:onClick="SelectBaseOnclick"
+                android:text="@string/str_Onclickbase8"
+                android:textColor="@drawable/btn_state"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_base7_selectbase"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/buttons_bg_1"
+                android:onClick="SelectBaseOnclick"
+                android:text="@string/str_Onclickbase7"
+                android:textColor="@drawable/btn_state"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_tahlil_selectbase"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/buttons_bg_1"
+                android:onClick="SelectBaseOnclick"
+                android:text="@string/str_Onclickcal"
+                android:textColor="@drawable/btn_state"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_base9_selectbase"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/buttons_bg_1"
+                android:onClick="SelectBaseOnclick"
+                android:text="@string/str_Onclickbase9"
+                android:textColor="@drawable/btn_state"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_startTest_main"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttons_bg_1"
+                android:onClick="SelectBaseOnclick"
+                android:text="@string/str_startTest"
+                android:textColor="@drawable/btn_state"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tableLayout1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/banner"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

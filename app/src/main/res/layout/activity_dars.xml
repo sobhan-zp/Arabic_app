@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.arabic.app.Activity.TainSathActivity">
+
+            <!-- toolbar -->
+            <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:local="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/material_green_800"
+                android:minHeight="?attr/actionBarSize"
+                local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/app_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="25dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_base7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btn_base8_selectbase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/str_Onclickbase7"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+
+                        <Button
+                            android:id="@+id/btn_dars4_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars4"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:textSize="10dp"
+                            android:enabled="false"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars3_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars3"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:textSize="10dp"
+                            android:enabled="false"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars2_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars2"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:textSize="10dp"
+                            android:enabled="false"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars1_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars1"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:textSize="10dp"
+                            android:enabled="false"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/btn_dars8_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars8"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars7_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars7"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:enabled="false"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars6_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:enabled="false"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars6"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars5_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_dis_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars5"
+                            android:textColor="@drawable/btn_state_dis"
+                            android:textSize="10dp"
+                            android:enabled="false"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                    </TableRow>
+
+
+                    <TableRow
+                         android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/btn_dars12_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars12"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars11_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars11"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars10_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars10"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                        <Button
+                            android:id="@+id/btn_dars9_selectdars"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars9"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                    </TableRow>
+
+
+                    <!-- <TableRow
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_weight="1">
+
+                         <Button
+                             android:id="@+id/btn_tamrin_7"
+                             android:layout_width="0dip"
+                             android:layout_height="fill_parent"
+                             android:layout_margin="5dp"
+                             android:layout_weight="2"
+                             android:background="@drawable/buttons_bg_1"
+                             android:onClick="TamrinSelectDarsOnclick"
+                             android:text="تمارین"
+                             android:textColor="@drawable/btn_state"
+                             android:textSize="15dp"
+                             android:textStyle="bold"
+                             tools:ignore="OnClick" />
+
+
+
+
+                     </TableRow>-->
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_base8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/str_Onclickbase8"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars3"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+                        <Button
+                            android:id="@+id/btn_base7_selectbase"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars2"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+                        <Button
+                           android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="SelectDarsOnclick"
+                            android:text="@string/str_dars1"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/btn_tamrin_8"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttons_bg_1"
+                            android:onClick="TamrinSelectDarsOnclick"
+                            android:text="تمارین"
+                            android:textColor="@drawable/btn_state"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            tools:ignore="OnClick" />
+
+
+                    </TableRow>
+
+
+                </LinearLayout>
+
+
+            </TableLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_base_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/material_light_green_900"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_base_dl_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="درحال دانلود..."
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

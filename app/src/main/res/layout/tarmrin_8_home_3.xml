@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_discount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- toolbar -->
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_title_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/Btn_next3_Tamrin_home_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tamrin_buttons_bg_1"
+            android:text="@string/btn_next"
+            android:textColor="@drawable/btn_state"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:theme="@style/MyButton" />
+
+
+        <TextView
+            android:id="@+id/tv_quiz_tf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="در هر گروه از کلمه ها ، کلمه ی ناهماهنگ از نظر معنایی یا دستوری را مشخص کنید ."
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_rv_tamrin_tf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_title_tf"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_Tamrin_home_8_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

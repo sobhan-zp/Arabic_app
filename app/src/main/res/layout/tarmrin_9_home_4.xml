@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_discount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- toolbar -->
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_title_jk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/app_bar"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/Btn_next4_Tamrin_home_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/tamrin_buttons_bg_1"
+            android:text="@string/btn_next"
+            android:textColor="@drawable/btn_state"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:theme="@style/MyButton" />
+
+
+        <TextView
+            android:id="@+id/tv_quiz_jk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textDirection="rtl"
+            android:text="ترجمه ی صحیح را انتخاب کنید. "
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_rv_tamrin_jk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_title_jk"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_Tamrin_home_9_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
