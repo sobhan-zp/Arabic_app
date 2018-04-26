@@ -75,7 +75,7 @@
         <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_5.Azmoon_9_5"/>
         <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_6.Azmoon_9_6"/>
         <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_7.Azmoon_9_7"/>
-
+        <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_8.Azmoon_9_8"/>
         <activity android:name=".Paye_Haft.Nohom.Azmoon_9.A_9.Azmoon_9_9"/>
 
         <meta-data

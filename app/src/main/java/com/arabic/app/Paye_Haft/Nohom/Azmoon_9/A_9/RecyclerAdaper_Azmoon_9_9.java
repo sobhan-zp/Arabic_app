@@ -144,6 +144,15 @@ public class RecyclerAdaper_Azmoon_9_9 extends RecyclerView.Adapter<RecyclerAdap
             public void onClick(View view) {
 
 
+                RadioButton[] rb_all = {
+                        holder.rb_azmoon_9_9_1,
+                        holder.rb_azmoon_9_9_2,
+                        holder.rb_azmoon_9_9_3,
+                        holder.rb_azmoon_9_9_4
+                };
+
+                if(AppController.checkRadiobutton(rb_all)) return;
+
                 holder.btn_okk.setVisibility(View.GONE);
 
                 if (rb.getTag().toString().equals(String.valueOf(correct))) {

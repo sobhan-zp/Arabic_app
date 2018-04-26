@@ -123,6 +123,13 @@ public class RecyclerAdaper_Tamrin_8_home_2 extends RecyclerView.Adapter<Recycle
             @Override
             public void onClick(View view) {
 
+                /// TODO btn ok
+                RadioButton[] rb_all = {
+                        holder.rb_tamrin_8_class_2_no,
+                        holder.rb_tamrin_8_class_2_yes
+
+                };
+                if(AppController.checkRadiobutton(rb_all)) return;
 
                 holder.btn_okk.setVisibility(View.GONE);
 

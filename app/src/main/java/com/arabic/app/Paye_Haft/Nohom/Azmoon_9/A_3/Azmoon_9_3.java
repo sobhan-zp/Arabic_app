@@ -92,7 +92,7 @@ public class Azmoon_9_3 extends AppCompatActivity {
                     4,
                     3,
                     3,
-                    1
+                    4
 
 
 

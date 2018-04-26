@@ -5,6 +5,7 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.text.TextUtils;
+import android.widget.RadioButton;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -124,6 +125,17 @@ public class AppController  extends Application {
         return !TextUtils.isEmpty(target) && android.util.Patterns.EMAIL_ADDRESS.matcher(target).matches();
     }
 
+
+
+    public static boolean checkRadiobutton(RadioButton[] rb_all) {
+
+        for (int i = 0; i < rb_all.length; i++) {
+            if(rb_all[i].isChecked()){
+                return false;
+            }
+        }
+        return true;
+    }
 
 
 }

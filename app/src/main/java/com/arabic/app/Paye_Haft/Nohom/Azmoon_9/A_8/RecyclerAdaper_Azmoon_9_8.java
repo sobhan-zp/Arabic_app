@@ -1,4 +1,4 @@
-package com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_4;
+package com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_8;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -13,10 +13,9 @@ import android.widget.TextView;
 
 import com.arabic.app.Network.AppController;
 import com.arabic.app.Network.SavePref;
-import com.arabic.app.Paye_Haft.Hashtom.Tamrin_Home_Hashtom.Tarjome_sahih_4.Tarmrin_8_home_4;
 import com.arabic.app.R;
-import com.arabic.app.model.model_8_home.Model_jomleSahih_8_home_4;
-import com.arabic.app.model.model_azmoon_9.Model_Azmoon_9_4;
+import com.arabic.app.model.model_azmoon_9.Model_Azmoon_9_8;
+
 
 import java.util.List;
 
@@ -24,11 +23,11 @@ import java.util.List;
  * Created by Maziar on 12/15/2017.
  */
 
-public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdaper_Azmoon_9_4.MyViewHolder> {
+public class RecyclerAdaper_Azmoon_9_8 extends RecyclerView.Adapter<RecyclerAdaper_Azmoon_9_8.MyViewHolder> {
 
     private int lastPosition = -1;
     private boolean iscolor = true;
-    private List<Model_Azmoon_9_4> itemList;
+    private List<Model_Azmoon_9_8> itemList;
     private Context mContext;
     private Typeface font;
     private SavePref save;
@@ -40,8 +39,8 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tv_azmoon_9_4_title;
-        public RadioButton rb_azmoon_9_4_1, rb_azmoon_9_4_2, rb_azmoon_9_4_3;
+        public TextView tv_azmoon_9_8_title;
+        public RadioButton rb_azmoon_9_8_1, rb_azmoon_9_8_2, rb_azmoon_9_8_3;
 
         private Button btn_okk;
         public TextView tv_error, tv_correct;
@@ -50,10 +49,10 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
         public MyViewHolder(View view) {
             super(view);
 
-            tv_azmoon_9_4_title = (TextView) itemView.findViewById(R.id.tv_azmoon_9_4_title);
-            rb_azmoon_9_4_1 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_4_1);
-            rb_azmoon_9_4_2 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_4_2);
-            rb_azmoon_9_4_3 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_4_3);
+            tv_azmoon_9_8_title = (TextView) itemView.findViewById(R.id.tv_azmoon_9_8_title);
+            rb_azmoon_9_8_1 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_8_1);
+            rb_azmoon_9_8_2 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_8_2);
+            rb_azmoon_9_8_3 = (RadioButton) itemView.findViewById(R.id.rb_azmoon_9_8_3);
 
 
             tv_error = (TextView) itemView.findViewById(R.id.tv_quiz_row_error);
@@ -63,7 +62,7 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
     }
 
 
-    public RecyclerAdaper_Azmoon_9_4(Context context, List<Model_Azmoon_9_4> itemList) {
+    public RecyclerAdaper_Azmoon_9_8(Context context, List<Model_Azmoon_9_8> itemList) {
         this.itemList = itemList;
         this.mContext = context;
         save = new SavePref(context);
@@ -72,54 +71,54 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.row_azmoon_9_4, parent, false);
+                .inflate(R.layout.row_azmoon_9_8, parent, false);
 
         return new MyViewHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        final Model_Azmoon_9_4 Item = itemList.get(position);
+        final Model_Azmoon_9_8 Item = itemList.get(position);
 
-        holder.tv_azmoon_9_4_title.setText(Item.getTitle());
-        holder.rb_azmoon_9_4_1.setText(Item.getRb_char1());
-        holder.rb_azmoon_9_4_2.setText(Item.getRb_char2());
-        holder.rb_azmoon_9_4_3.setText(Item.getRb_char3());
-
-
-        holder.rb_azmoon_9_4_1.setTag("1");
-        holder.rb_azmoon_9_4_2.setTag("2");
-        holder.rb_azmoon_9_4_3.setTag("3");
+        holder.tv_azmoon_9_8_title.setText(Item.getTitle());
+        holder.rb_azmoon_9_8_1.setText(Item.getRb_char1());
+        holder.rb_azmoon_9_8_2.setText(Item.getRb_char2());
+        holder.rb_azmoon_9_8_3.setText(Item.getRb_char3());
 
 
-        holder.rb_azmoon_9_4_1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        holder.rb_azmoon_9_8_1.setTag("1");
+        holder.rb_azmoon_9_8_2.setTag("2");
+        holder.rb_azmoon_9_8_3.setTag("3");
+
+
+        holder.rb_azmoon_9_8_1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
                 if (b) {
-                    calc(holder.rb_azmoon_9_4_1, Item.getId_correct());
+                    calc(holder.rb_azmoon_9_8_1, Item.getId_correct());
                 }
 
             }
         });
 
-        holder.rb_azmoon_9_4_2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        holder.rb_azmoon_9_8_2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
                 if (b) {
-                    calc(holder.rb_azmoon_9_4_2, Item.getId_correct());
+                    calc(holder.rb_azmoon_9_8_2, Item.getId_correct());
                 }
             }
         });
 
 
-        holder.rb_azmoon_9_4_3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        holder.rb_azmoon_9_8_3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
                 if (b) {
-                    calc(holder.rb_azmoon_9_4_3, Item.getId_correct());
+                    calc(holder.rb_azmoon_9_8_3, Item.getId_correct());
                 }
             }
         });
@@ -132,9 +131,9 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
 
 
                 RadioButton[] rb_all = {
-                        holder.rb_azmoon_9_4_1,
-                        holder.rb_azmoon_9_4_2,
-                        holder.rb_azmoon_9_4_3
+                        holder.rb_azmoon_9_8_1,
+                        holder.rb_azmoon_9_8_2,
+                        holder.rb_azmoon_9_8_3
                 };
 
                 if(AppController.checkRadiobutton(rb_all)) return;
@@ -153,15 +152,15 @@ public class RecyclerAdaper_Azmoon_9_4 extends RecyclerView.Adapter<RecyclerAdap
 
 
                     String aa = "";
-                    switch (Azmoon_9_4.ansever[position]) {
+                    switch (Azmoon_9_8.ansever[position]) {
                         case 1:
-                            aa = holder.rb_azmoon_9_4_1.getText().toString();
+                            aa = holder.rb_azmoon_9_8_1.getText().toString();
                             break;
                         case 2:
-                            aa = holder.rb_azmoon_9_4_2.getText().toString();
+                            aa = holder.rb_azmoon_9_8_2.getText().toString();
                             break;
                         case 3:
-                            aa = holder.rb_azmoon_9_4_3.getText().toString();
+                            aa = holder.rb_azmoon_9_8_3.getText().toString();
                             break;
 
                     }

@@ -142,6 +142,15 @@ public class RecyclerAdaper_Azmoon_9_3 extends RecyclerView.Adapter<RecyclerAdap
             @Override
             public void onClick(View view) {
 
+                /// TODO btn ok
+                RadioButton[] rb_all = {
+                        viewHolder.rb_azmoon_9_3_1,
+                        viewHolder.rb_azmoon_9_3_2,
+                        viewHolder.rb_azmoon_9_3_3,
+                        viewHolder.rb_azmoon_9_3_4
+                };
+                if(AppController.checkRadiobutton(rb_all)) return;
+
 
                 viewHolder.btn_okk.setVisibility(View.GONE);
 
@@ -171,6 +180,8 @@ public class RecyclerAdaper_Azmoon_9_3 extends RecyclerView.Adapter<RecyclerAdap
                             aa = viewHolder.rb_azmoon_9_3_4.getText().toString();
                             break;
 
+                            default:
+                                aa = "";
                     }
 
                     viewHolder.tv_correct.setText(aa);
@@ -184,6 +195,8 @@ public class RecyclerAdaper_Azmoon_9_3 extends RecyclerView.Adapter<RecyclerAdap
 
 
     }
+
+
 
 
     private void calc(RadioButton rb, int correct) {

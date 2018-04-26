@@ -47,7 +47,7 @@ public class Azmoon_9_9 extends AppCompatActivity {
 
                     "جَلَسَت",
                     "قرأتما",
-                    "شربتما",
+                    "شربا",
                     "سَمَحَ ",
                     "کَتَبَتُ"
 
@@ -78,8 +78,8 @@ public class Azmoon_9_9 extends AppCompatActivity {
             {
 
                     "جَلسنَ",
-                    "قرأتنَّ   ",
-                    "شربت",
+                    "قرأتنَّ",
+                    "شربتِ",
                     "سمحوا",
                     "کَتَبَتِ"
 
@@ -93,7 +93,7 @@ public class Azmoon_9_9 extends AppCompatActivity {
 
                     "جلسنا ",
                     "قرأتم",
-                    "شربتما  ",
+                    "شربتما",
                     "سمحَتْ",
                     "کَتَبَتَ"
 

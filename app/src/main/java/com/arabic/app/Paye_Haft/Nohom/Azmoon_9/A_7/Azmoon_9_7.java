@@ -15,6 +15,7 @@ import com.arabic.app.Network.AppController;
 import com.arabic.app.Network.SavePref;
 import com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_5.Azmoon_9_5;
 import com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_6.RecyclerAdaper_Azmoon_9_6;
+import com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_8.Azmoon_9_8;
 import com.arabic.app.Paye_Haft.Nohom.Azmoon_9.A_9.Azmoon_9_9;
 import com.arabic.app.R;
 import com.arabic.app.model.model_azmoon_9.Model_Azmoon_9_6;
@@ -122,7 +123,7 @@ public class Azmoon_9_7 extends AppCompatActivity {
 
 
 
-                Intent i = new Intent(Azmoon_9_7.this , Azmoon_9_9.class);
+                Intent i = new Intent(Azmoon_9_7.this , Azmoon_9_8.class);
                 startActivity(i);
             }
         });
